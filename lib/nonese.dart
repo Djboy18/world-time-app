@@ -1,13 +1,10 @@
 import 'package:world_time/nonese.dart';
 class FuckYou{
-  String? name;
-  String? group;
-  FuckYou({this.name,this.group});
-  motherfucker(){
-    print("you $name are a motherfucker");
+  final String name;
+  final String group;
+  FuckYou({required this.name,required this.group});
+  String motherfucker(){
+    String motherFucker = "You${name} are very stupid motherFucker";
+    return motherFucker;
   }
-}
-void main(){
-  FuckYou name = FuckYou(name: "doyinsola",group: "ss4");
-  name.toString();
 }
