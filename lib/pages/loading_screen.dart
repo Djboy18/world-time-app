@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'package:world_time/services/worldtime_api.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-
 class LoadingScreen extends StatefulWidget {
   const LoadingScreen({Key? key}) : super(key: key);
 
@@ -18,7 +17,6 @@ class _LoadingScreenState extends State<LoadingScreen> {
         "flag"  : instance.flag,
         "time": instance.time,
         "isdaytime":instance.isdaytime,
-
       }
 
       );
@@ -45,3 +43,4 @@ class _LoadingScreenState extends State<LoadingScreen> {
     );
   }
 }
+*/
